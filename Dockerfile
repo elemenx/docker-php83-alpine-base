@@ -20,7 +20,8 @@ RUN apk add --no-cache --virtual .build-deps  \
     bzip2-dev \
     libzip-dev \
     gmp-dev \
-    gettext-dev
+    gettext-dev \
+    linux-headers
 
 # Add Production Dependencies
 RUN apk add --update --no-cache \
