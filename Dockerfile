@@ -1,4 +1,4 @@
-FROM php:8.3.0RC6-cli-alpine
+FROM php:8.3-cli-alpine
 
 ENV CFLAGS="$CFLAGS -D_GNU_SOURCE"
 
