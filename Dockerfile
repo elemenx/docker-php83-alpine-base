@@ -1,7 +1,5 @@
 FROM php:8.3-cli-alpine3.22
 
-ENV CFLAGS="$CFLAGS -D_GNU_SOURCE"
-
 RUN mv "$PHP_INI_DIR/php.ini-production" "$PHP_INI_DIR/php.ini"
 
 # Add Repositories
