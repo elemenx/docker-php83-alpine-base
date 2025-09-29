@@ -53,7 +53,6 @@ RUN docker-php-ext-configure \
     opcache --enable-opcache &&\
     docker-php-ext-configure gd --with-freetype --with-jpeg &&\
     docker-php-ext-install \
-    opcache \
     mysqli \
     pdo \
     pdo_mysql \
